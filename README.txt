@@ -8,10 +8,12 @@ Description
 This is a site for a used book store.  Anonymous users can view book reviews, the about page, and locations.  Verified users can comment on book reviews, contact the admins, and view coupons.  In addition to those privileges, reviewers are able to add, edit, and delete their own book reviews.
 
 Setup
-Clone the repository from GitHub
-Import the backup database (add in details after recreating it)
-Open MAMP, direct the path to the root project folder, and start the servers
-Open the site in your browser from your localhost
+-Clone the repository from GitHub
+-Open MAMP, direct the path to the root project folder, and start the servers
+-Go to localhost:8888/phpmyadmin
+-Select Import->Choose File, then select the database localhost.sql.zip in sites/db-backup, and click Go
+-Under Privileges, select Add User and add the database user listed below
+-Open the site in your browser from your localhost
 
 Database Information:
 Database name: bookstore_database
